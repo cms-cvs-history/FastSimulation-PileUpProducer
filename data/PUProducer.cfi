@@ -1,0 +1,13 @@
+# Take pileup events from files
+PSet PUProducer = 
+{
+	secsource input = PUSource {
+	      	untracked vstring fileNames = {
+			"file:FastSimulation/PileUpProducer/test/minbias_1.root",
+			"file:FastSimulation/PileUpProducer/test/minbias_2.root",
+			"file:FastSimulation/PileUpProducer/test/minbias_3.root"
+		}
+	}
+	double averageNumber = 5.0
+	int32 seed = 123456789	
+}
