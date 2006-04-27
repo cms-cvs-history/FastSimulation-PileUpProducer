@@ -8,6 +8,6 @@ PSet PUProducer =
 			"file:FastSimulation/PileUpProducer/test/minbias_3.root"
 		}
 	}
-	double averageNumber = 5.0
-	int32 seed = 123456789	
+	double averageNumber = 5
+#	int32 seed = 123456789	
 }
