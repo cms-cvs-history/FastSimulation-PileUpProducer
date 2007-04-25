@@ -3,9 +3,19 @@ PSet PUProducer =
 {
 	secsource input = PUSource {
 	      	untracked vstring fileNames = {
-			"file:FastSimulation/PileUpProducer/test/minbias_1.root",
-			"file:FastSimulation/PileUpProducer/test/minbias_2.root",
-			"file:FastSimulation/PileUpProducer/test/minbias_3.root"
+        "file:PileUpProducer/test/MinBiasSample_a.root"
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_0.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_1.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_2.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_3.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_4.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_5.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_6.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_7.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_8.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_9.root",
+#       "rfio:/castor/cern.ch/user/b/beaudett/CMSSW140/MinBias/MinBiasSample_10.root" 
+#        'file:/tmp/beaudett/CMSSW_1_4_0_pre3/src/MinBiasSample_a.root'
 		}
 	}
 	double averageNumber = 5

@@ -1,0 +1,15 @@
+# Take pileup events from files
+PSet PileUpSimulator = 
+{
+# Special files of minimum bias events (generated with 
+# cmsRun FastSimulation/PileUpProducer/test/producePileUpEvents.cfg)
+      	untracked vstring fileNames = {
+		"MinBiasEvents_001.root",
+		"MinBiasEvents_002.root",
+		"MinBiasEvents_003.root"
+	}
+	double averageNumber = 5
+# The file with the last minimum bias events read in the previous run
+# to be put in the local running directory (if desired)
+	untracked string inputFile = "PileUpInputFile.txt"
+}
