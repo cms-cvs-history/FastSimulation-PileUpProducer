@@ -4,9 +4,16 @@ PSet PileUpSimulator =
 # Special files of minimum bias events (generated with 
 # cmsRun FastSimulation/PileUpProducer/test/producePileUpEvents.cfg)
       	untracked vstring fileNames = {
-		"MinBiasEvents_001.root",
-		"MinBiasEvents_002.root",
-		"MinBiasEvents_003.root"
+		"MinBiasEvents_01.root",
+		"MinBiasEvents_02.root",
+		"MinBiasEvents_03.root",
+		"MinBiasEvents_04.root",
+		"MinBiasEvents_05.root",
+		"MinBiasEvents_06.root",
+		"MinBiasEvents_07.root",
+		"MinBiasEvents_08.root",
+		"MinBiasEvents_09.root",
+		"MinBiasEvents_10.root"
 	}
 	double averageNumber = 5
 # The file with the last minimum bias events read in the previous run
