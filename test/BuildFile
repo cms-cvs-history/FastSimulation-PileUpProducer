@@ -8,6 +8,7 @@
 <use name=FastSimulation/Particle>
 <use name=FastSimulation/Utilities>
 <use name=FastSimulation/PileUpProducer>
+<use name=FastSimDataFormats/PileUpEvents>
 
 <library file=producePileUpEvents.cc name=producePileUpEvents>
 <flags EDM_PLUGIN=1>
