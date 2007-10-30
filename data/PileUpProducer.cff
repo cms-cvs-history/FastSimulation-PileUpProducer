@@ -1,0 +1,13 @@
+module famosPileUp = PileUpProducer 
+{ 
+    bool UseTRandomEngine = true
+
+    # Gaussian or flat or no primary vertex smearing
+    include "FastSimulation/Event/data/GaussianVertexGenerator.cfi"
+    #	include "FastSimulation/Event/data/FlatVertexGenerator.cfi"
+    #	include "FastSimulation/Event/data/NoVertexGenerator.cfi"
+    
+    # The conditions for pile-up event generation
+    include "FastSimulation/PileUpProducer/data/PileUpSimulator.cfi"
+
+}
