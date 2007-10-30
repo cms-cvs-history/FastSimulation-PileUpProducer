@@ -15,8 +15,9 @@ PSet PileUpSimulator =
 		"MinBiasEvents_09.root",
 		"MinBiasEvents_10.root"
 	}
-	double averageNumber = 5
+	double averageNumber = 0.0
 # The file with the last minimum bias events read in the previous run
 # to be put in the local running directory (if desired)
 	untracked string inputFile = "PileUpInputFile.txt"
+
 }
