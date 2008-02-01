@@ -2,8 +2,10 @@ module famosPileUp = PileUpProducer
 { 
     bool UseTRandomEngine = true
 
+    # Now beta function vertex smearing 
+    include "FastSimulation/Event/data/BetaFuncVertexGenerator.cfi"
     # Gaussian or flat or no primary vertex smearing
-    include "FastSimulation/Event/data/GaussianVertexGenerator.cfi"
+    #   include "FastSimulation/Event/data/GaussianVertexGenerator.cfi"
     #	include "FastSimulation/Event/data/FlatVertexGenerator.cfi"
     #	include "FastSimulation/Event/data/NoVertexGenerator.cfi"
     
