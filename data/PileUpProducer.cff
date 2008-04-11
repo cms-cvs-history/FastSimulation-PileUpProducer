@@ -20,6 +20,6 @@ module famosPileUp = PileUpProducer
 
     
     # The conditions for pile-up event generation
-    include "FastSimulation/PileUpProducer/data/PileUpSimulator.cfi"
+    using PileUpSimulatorBlock
 
 }
