@@ -10,14 +10,11 @@ include "FastSimulation/PileUpProducer/data/PileUpSimulator.cfi"
 
 module famosPileUp = PileUpProducer 
 { 
-    bool UseTRandomEngine = true
 
     PSet VertexGenerator = 
     { 
         using myVertexGenerator 
     } 
-
-
     
     # The conditions for pile-up event generation
     using PileUpSimulatorBlock
